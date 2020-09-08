@@ -18,13 +18,15 @@ class Configuration(): # get data dictionary in env
         value = env_private
         for p in path:
             value = value.get(p)
-            if value is None: break
+            if value is None:
+                break
 
         if value is None:
             value = env_default
             for p in path:
                 value = value.get(p)
-                if value is None: break
+                if value is None:
+                    break
 
         return value
 
