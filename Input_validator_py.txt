@@ -1,3 +1,4 @@
+if (list.length()==0): do... 
 Link: https://stackoverflow.com/questions/23294658/asking-the-user-for-input-until-they-give-a-valid-response/23294659#23294659
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 The simplest way to accomplish this is to put the input method in a while loop. Use continue when you get bad input, and break out of the loop when you're satisfied.
