@@ -1,4 +1,5 @@
 #  Go trought a list containing dicctionaries from a json
+# https://towardsdatascience.com/how-do-i-extract-nested-data-in-python-4e7bed37566a
 list_of_dic = response['json']['2']['something']  # list with dictionaries
             for dictionaries in list_of_dic:
                 for key, value in dicionaries.items():
